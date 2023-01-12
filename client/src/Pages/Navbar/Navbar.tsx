@@ -14,7 +14,7 @@ const Navbar = () => {
           >
             
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-              Company
+              SEEKER
             </span>
           </a>
 
