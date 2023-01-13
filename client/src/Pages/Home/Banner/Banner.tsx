@@ -8,12 +8,13 @@ const Banner = () => {
       className="hero"
       style={{ backgroundImage: `url(${banner})`, height: "700px" }}
     >
-      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-overlay bg-opacity-70"></div>
       <div className="hero-content text-center">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl text-info font-bold">SEEKER</h1>
+        <div className="max-w-lg">
+          <h1 className="mb-5 text-5xl text-info font-bold">JOBSTACK</h1>
+          <p className="text-xl text-white my-6 font-semibold ">Everyone on the app is committed to helping each other in the best way they can. Find your dream job & build your network with professionals.</p>
           <TypeWriter></TypeWriter>
-          <button className="btn mt-3 btn-outline btn-warning">Get Started</button>
+          <button className="btn mt-4 btn-outline btn-warning  ">Get Started</button>
         </div>
       </div>
     </div>
