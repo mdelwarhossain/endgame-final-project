@@ -4,8 +4,8 @@ import { FaHandPointRight } from 'react-icons/fa';
 
 const About = () => {
     return (
-        <div className='my-12 px-4'>
-            <h3 className='text-center font-extrabold text-3xl'>What Do We Do</h3>
+        <div className='my-24 px-4 '>
+            <h3 className='text-center font-extrabold text-3xl '>What Do We Do</h3>
             <div className='grid mt-12  grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-12'>
                 <img className='rounded-xl' src={model} alt="" />
                 <div>

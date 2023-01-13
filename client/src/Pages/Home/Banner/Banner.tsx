@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div
       className="hero"
-      style={{ backgroundImage: `url(${banner})`, height: "500px" }}
+      style={{ backgroundImage: `url(${banner})`, height: "700px" }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center">
