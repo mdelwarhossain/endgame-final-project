@@ -12,7 +12,7 @@ const Navbar = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            
+
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
               JobStack
             </span>
@@ -60,16 +60,17 @@ const Navbar = () => {
                 About us
               </a>
             </li>
+
           </ul>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
-                href="/"
+                href="/login"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
+                aria-label="login"
+                title="login"
               >
-                Sign up
+                Log in
               </a>
             </li>
           </ul>
@@ -106,7 +107,7 @@ const Navbar = () => {
                         title="Company"
                         className="inline-flex items-center"
                       >
-                        
+
                         <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                           Company
                         </span>
@@ -172,12 +173,12 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
-                          href="/"
+                          href="/login"
                           className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
+                          aria-label="login"
+                          title="login"
                         >
-                          Sign up
+                          Log in
                         </a>
                       </li>
                     </ul>
