@@ -1,4 +1,5 @@
 import React from 'react';
+import { RouterProvider } from 'react-router-dom';
 
 import './App.css';
 import Login from './Login/Login';
@@ -9,8 +10,9 @@ import Members from './Pages/Home/Community/Members';
 
 import Navbar from './Pages/Navbar/Navbar';
 import Statistics from './Pages/Statistics/Statistics';
-import { RouterProvider } from 'react-router-dom'
 import router from './Routes/Routes';
+
+
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       <Statistics />
       <Footer />
       <Login></Login>
+
       <RouterProvider router={router}></RouterProvider>
+
     </div>
   );
 }
