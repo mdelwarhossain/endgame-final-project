@@ -11,12 +11,14 @@ import Navbar from './Pages/Navbar/Navbar';
 import Statistics from './Pages/Statistics/Statistics';
 import { RouterProvider } from 'react-router-dom'
 import router from './Routes/Routes';
+import OurTeam from './Pages/Home/OurTeam/OurTeam';
 
 function App() {
   return (
     <div className="">
       <Navbar />
       <Banner />
+      <OurTeam></OurTeam>
       <About />
       <Members></Members>
       <Statistics />
