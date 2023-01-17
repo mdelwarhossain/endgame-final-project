@@ -1,4 +1,14 @@
+// import React from 'react';
 
+// const AuthProvider = () => {
+//     return (
+//         <div>
+//             <h1></h1>
+//         </div>
+//     );
+// };
+
+// export default AuthProvider;
 import React, { createContext } from 'react';
 
 import app from '../firebase/firebase.config';
@@ -9,11 +19,16 @@ export const AuthContext = createContext;
 
 
 const auth = getAuth(app)
-const AuthProvider = () => {
-    return (
-        <div>
+const AuthProvider = ({ children }: { children: React.ReactNode }) => {
+    const authInfo = {
 
-        </div>
+    }
+
+    return (
+        // <AuthContext.Provider value={authInfo}>
+        //     {children}
+        // </AuthContext.Provider>
+        <></>
     );
 };
 
