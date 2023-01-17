@@ -17,13 +17,7 @@ import router from './Routes/Routes';
 function App() {
   return (
     <div className="">
-      <Navbar />
-      <Banner />
-      <About />
-      <Members></Members>
-      <Statistics />
-      <Footer />
-      <Login></Login>
+
 
       <RouterProvider router={router}></RouterProvider>
 
